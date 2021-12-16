@@ -110,6 +110,7 @@ class Passaro(Ator):
         if self.y <= 0:
             self.status = DESTRUIDO
 
+
     def calcular_posicao(self, tempo):
         """
         Método que cálcula a posição do passaro de acordo com o tempo.
